@@ -1,0 +1,19 @@
+{
+  "name": "lenovo/php_mvc",
+  "authors": [
+    {
+      "name": "matinTayebiNia",
+      "email": "81463679+matinTayebiNia@users.noreply.github.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+        "app\\": "./"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "ext-pdo": "*",
+    "matintayebi/core": "^1.0"
+  }
+}
